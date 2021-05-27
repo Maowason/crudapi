@@ -4,8 +4,8 @@
 3. Run the image (Read Below)
 
 The Docker image requires 2 arguments (environment variables)<br/>
-* Database URI<br/>
-*  Token Secret Key<br/>
+* Database URI - The link to the Database Cluster - for a mongo cluster example - `mongodb+srv://mao:mao11@cluster0.qjr2m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`. You can go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and launch a cluster and get the URI from there.<br/>
+*  Token Secret Key - Any Secret Key you'd like to keep. This is for JWT<br/>
 
 Example Snippet:<br/>
 ` docker run -p 9000:9000 -e DB_CONNECT="mongodb://localhost:27017" -e TOKEN_SECRET="insertSecretTokenHere" -dit maowason/crudapi:v1`<br/>
