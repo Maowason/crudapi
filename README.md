@@ -1,6 +1,6 @@
 ## To Run the Docker Image<br/>
 1. Go to [Docker Repo](https://hub.docker.com/r/maowason/crudapi)<br/>
-2. Pull the docker image
+2. Pull the docker image - with a tag of v1 | `docker pull maowason/crudapi:v1`
 3. Run the image (Read Below)
 
 The Docker image requires 2 arguments (environment variables)<br/>
